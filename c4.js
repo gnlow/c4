@@ -1,10 +1,11 @@
-// ==UseerScript==
+// ==UserScript==
 // @name c4
 // @namespace gnlow
 // @match       *://*/*
 // @grant       none
 // @inject-into content
 // @author Gnlow
+// ==/UserScript==
 
 document.body.outerHTML = document.body.outerHTML
     .replace(
